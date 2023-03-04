@@ -44,6 +44,7 @@
   grid-template-columns: repeat(4, minmax(25%, auto));
   width: var(--max-width);
   max-width: 100%;
+  gap: 3rem;
 }
 
 .card {
@@ -262,7 +263,6 @@
     filter: invert(1);
   }
 
-  .logo,
   .thirteen img {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
   }
